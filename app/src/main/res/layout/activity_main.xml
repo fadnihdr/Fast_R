@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bb"
+    android:rowCount="6"
+    android:columnCount="1"
+    tools:context="com.example.fadni.fast_r.Main">
+
+
+    <ImageView
+
+        android:src="@drawable/logo"
+
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="30dp"/>
+
+    <ImageButton
+
+        android:layout_gravity="center"
+        android:background="@drawable/startbutton"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:id="@+id/startbutton"
+        android:onClick="onClick"/>
+
+
+    <ImageButton
+
+        android:layout_gravity="center"
+        android:background="@drawable/settings"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:id="@+id/settingsbutton"
+        android:onClick="onClick"/>
+
+    <ImageButton
+
+        android:layout_gravity="center"
+        android:background="@drawable/highscorebutton"
+        android:layout_width="200dp"
+        android:layout_height="120dp"
+        android:id="@+id/highscorebutton"
+        android:onClick="onClick"/>
+
+
+</GridLayout>
